@@ -34,6 +34,7 @@ function fight(playerOne, playerTwo) {
 function fightObj(enemyObj) {
 	return map.get(this).win === map.get(enemyObj).name ? map.get(this) : map.get(enemyObj);
 }
+// [Post a Reply][Return] [Catalo]
 
 function game(humanPlayer, cpuPlayer) {
 	let scoreHuman = 0;
